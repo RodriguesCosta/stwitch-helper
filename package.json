@@ -1,6 +1,6 @@
 {
   "name": "stel-helper",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "main": "public/electron.js",
   "homepage": "./",
@@ -8,7 +8,7 @@
     "electron": "electron .",
     "start": "react-scripts start",
     "build": "react-scripts build && cd build/AdminLTE-2.4.18 && npx bower install",
-    "build:electron": "react-scripts build && electron-builder build --windows portable --x64",
+    "build:electron": "yarn build && electron-builder build --windows portable --x64",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
